@@ -46,7 +46,7 @@ public class App {
         Instant pastWeekInstant = d09.minus(7, ChronoUnit.DAYS);
         System.out.println(pastWeekInstant);
 
-        Duration t1 = Duration.between(d04, d01);
+        Duration t1 = Duration.between(d01, d04);
         // System.out.println(t1);
     }
 }
